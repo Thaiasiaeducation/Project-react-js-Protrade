@@ -83,11 +83,7 @@ function Footer() {
             <div className="container">
               <div className="row">
                 <div className="col-xl-3 col-lg-6 col-md-12">
-                  <img
-                    src="../../assets/images/brand/logo1.png"
-                    alt=""
-                    className
-                  />
+                  <img src="" alt="" className />
                   <p className="mb-1 mt-2">
                     At vero eos et accusamus et iusto odio dignissimos ducimus
                     voluptatum
@@ -232,15 +228,7 @@ function Footer() {
             <div className="container">
               <div className="row d-flex">
                 <div className="col-lg-12 col-sm-12  mt-2 mb-2 text-center ">
-                  Copyright © 2020{" "}
-                  <a href="#" className="fs-14 text-secondary">
-                    Gowell
-                  </a>
-                  . Designed by{" "}
-                  <a href="spruko.com" className="fs-14 text-secondary">
-                    Spruko
-                  </a>{" "}
-                  All rights reserved.
+                  Copyright © 2021 All rights reserved.
                 </div>
               </div>
             </div>

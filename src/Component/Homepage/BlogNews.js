@@ -1,15 +1,14 @@
 import React from "react";
 import $ from "jquery";
 
-$(".cover-image").each(function () {
-  var attr = $(this).attr("data-image-src");
-
-  if (typeof attr !== typeof undefined && attr !== false) {
-    $(this).css("background", "url(" + attr + ") center center");
-  }
-});
-
 function BlogNews() {
+  $(".cover-image").each(function () {
+    var attr = $(this).attr("data-image-src");
+
+    if (typeof attr !== typeof undefined && attr !== false) {
+      $(this).css("background", "url(" + attr + ") center center");
+    }
+  });
   return (
     <>
       <section className="sptb bg-white">
