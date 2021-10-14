@@ -9,7 +9,7 @@ function Mobileapp() {
       >
         <div className="container content-text">
           <div className="section-title center-block text-center">
-            <span className="heading-style text-secondary">Download</span>
+            {/* <span className="heading-style text-secondary">Download</span> */}
             <h2>Mobile App</h2>
             <p>
               Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur

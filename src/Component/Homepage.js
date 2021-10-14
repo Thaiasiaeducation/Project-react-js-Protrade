@@ -12,8 +12,6 @@ import Footer from "./Homepage/Footer";
 function Homepage() {
   return (
     <>
-      <Nav />
-      <Header />
       <Popular />
       <Ratedlocations />
       <Customerssays />

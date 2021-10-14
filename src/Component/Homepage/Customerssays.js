@@ -16,7 +16,7 @@ function Customerssays() {
         <div className="container">
           <div className="section-title center-block text-center">
             {/* <span className="heading-style text-secondary">Our </span> */}
-            <h1 className="position-relative">Customers Review</h1>
+            <h1 className="position-relative">Customers Says</h1>
             {/* <p className="fs-16 mb-0">
               It is a long established fact that a reader will be distracted by
               the readable.

@@ -6,7 +6,7 @@ function Features() {
       <section className="sptb">
         <div className="container">
           <div className="section-title center-block text-center">
-            <span className="heading-style text-secondary">Our Tour</span>
+            {/* <span className="heading-style text-secondary">Our Tour</span> */}
             <h2>Features</h2>
             <p>
               At vero eos et accusamus et iusto odio dignissimos ducimus qui
