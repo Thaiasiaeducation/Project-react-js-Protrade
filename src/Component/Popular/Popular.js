@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
-import { Itempopular } from "./Itempopular";
+import { Itempopular } from "../../data/Itempopular";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },

@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
-import { Itemlocation } from "./Itemlocation";
+import { Itemlocation } from "../../data/Itemlocation";
 
 const breakPoints = [
   { width: 1, itemsToShow: 2 },

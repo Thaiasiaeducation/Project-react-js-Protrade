@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Carousel from "react-elastic-carousel";
-import { Itemreview } from "./Itemreview";
+import { Itemreview } from "../../data/Itemreview";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
