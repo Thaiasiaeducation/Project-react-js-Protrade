@@ -1,9 +1,38 @@
 import React from "react";
-import Footer from "../Footer/Footer";
 
 function About() {
   return (
     <>
+      {/*Breadcrumb*/}
+      <section
+        className="bannerimg cover-image bg-background3"
+        data-image-src="../../assets/images/banners/slide-banner.jpg"
+      >
+        <div className="header-text mb-0">
+          <div className="container">
+            <div className="row text-white">
+              <div className="col">
+                <h1 className>Contact Us</h1>
+              </div>
+              <div className="col col-auto">
+                <ol className="breadcrumb text-center">
+                  <li className="breadcrumb-item">
+                    <a href="#">Home</a>
+                  </li>
+                  <li
+                    className="breadcrumb-item active text-white"
+                    aria-current="page"
+                  >
+                    Contact
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*/Breadcrumb*/}
+
       <section className="bg-white">
         <div className="content-text mb-0">
           <div className="container">
@@ -825,8 +854,6 @@ function About() {
         </div>
       </section>
       {/*Section*/}
-
-      <Footer />
     </>
   );
 }
