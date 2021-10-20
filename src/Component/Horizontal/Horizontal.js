@@ -91,10 +91,10 @@ function Horizontal() {
                       </Link>
                     </li>
                     <li>
-                      <a href="login.html" className="text-white">
+                      <Link to="signin" className="text-white">
                         <i className="fa fa-sign-in mr-1 text-white" />{" "}
                         <span>Login</span>
-                      </a>
+                      </Link>
                     </li>
                     <li className="dropdown">
                       <a href="#" className="text-white" data-toggle="dropdown">
