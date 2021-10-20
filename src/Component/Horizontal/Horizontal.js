@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Horizontal() {
   return (
@@ -84,10 +85,10 @@ function Horizontal() {
                 <div className="top-bar-right">
                   <ul className="custom">
                     <li>
-                      <a href="register.html" className="text-white">
+                      <Link to="/signup" className="text-white">
                         <i className="fa fa-user mr-1 text-white" />{" "}
                         <span>Register</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <a href="login.html" className="text-white">
