@@ -38,11 +38,7 @@ function About() {
           <div className="container">
             <div className="row">
               <div className="col-lg-4">
-                <img
-                  src="../../assets/images/1.png"
-                  alt=""
-                  className="img-absolute-bottom w-100"
-                />
+                <img src="." alt="" className="img-absolute-bottom w-100" />
               </div>
               <div className="col-lg-8 sptb">
                 <div className="section-title text-left pb-2">
