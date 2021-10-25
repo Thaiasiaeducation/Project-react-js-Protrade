@@ -4,11 +4,7 @@ import Header from "./Hero/Header";
 import Popular from "./Popular/Popular";
 
 function Homepage() {
-  return (
-    <>
-      <h1>hollow word</h1>
-    </>
-  );
+  return <></>;
 }
 
 export default Homepage;
