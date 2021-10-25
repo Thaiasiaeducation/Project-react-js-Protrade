@@ -6,8 +6,7 @@ import Popular from "./Popular/Popular";
 function Homepage() {
   return (
     <>
-      <Header />
-      <Popular />
+      <h1>hollow word</h1>
     </>
   );
 }
