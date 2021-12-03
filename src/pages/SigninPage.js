@@ -34,14 +34,14 @@ function SigninPage() {
                       <div className="col">
                         <p className="text-dark mb-0 fs-12">
                           Don't have account?
-                          <a href="register.html" className="text-primary ml-1">
+                          <a href="signup" className="text-primary ml-1">
                             Sign UP
                           </a>
                         </p>
                       </div>
                       <div className="col col-auto">
                         <p className="mb-0 mt-0 fs-12">
-                          <a href="forgot.html">Forgot Password</a>
+                          <a href="Forgot">Forgot Password</a>
                         </p>
                       </div>
                     </div>

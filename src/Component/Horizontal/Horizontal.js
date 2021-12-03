@@ -51,32 +51,6 @@ function Horizontal() {
                           </a>
                         </div>
                       </li>
-                      <li className="dropdown">
-                        <a
-                          href="#"
-                          className="text-white"
-                          data-toggle="dropdown"
-                        >
-                          <span>
-                            Currency{" "}
-                            <i className="fa fa-caret-down text-white" />
-                          </span>
-                        </a>
-                        <div className="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                          <a href="#" className="dropdown-item">
-                            USD
-                          </a>
-                          <a className="dropdown-item" href="#">
-                            EUR
-                          </a>
-                          <a className="dropdown-item" href="#">
-                            INR
-                          </a>
-                          <a href="#" className="dropdown-item">
-                            GBP
-                          </a>
-                        </div>
-                      </li>
                     </ul>
                   </div>
                 </div>

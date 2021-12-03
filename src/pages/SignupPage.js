@@ -36,7 +36,7 @@ function SignupPage() {
                     </div>
                     <p className="text-dark mb-0 fs-13">
                       Already have an account?
-                      <a href="login.html" className="text-primary ml-1">
+                      <a href="signin" className="text-primary ml-1">
                         Sign In
                       </a>
                     </p>
