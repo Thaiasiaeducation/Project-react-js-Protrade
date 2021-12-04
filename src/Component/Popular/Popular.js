@@ -14,13 +14,8 @@ function Popular() {
     <>
       <section className="sptb">
         <div className="container">
-          <div className="section-title center-block text-center">
-            {/* <span className="heading-style text-secondary">Best</span> */}
-            <h1>Popular Titletest</h1>
-            <p>
-              Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur
-              vehicula
-            </p>
+          <div className="section-title">
+            <h3 style={{ left: "1rem" }}>บ้านและคอนโดยอดนิยม</h3>
           </div>
           <Carousel breakPoints={breakPoints}>
             {Itempopular.map((Item, index) => {
@@ -28,11 +23,6 @@ function Popular() {
                 <>
                   <div className="item mr-4">
                     <div className="card mb-0 item-card2-card">
-                      <div className="power-ribbon power-ribbon-top-left text-warning">
-                        <span className="bg-warning">
-                          <i className="fa fa-bolt" />
-                        </span>
-                      </div>
                       <div
                         id="image-slider"
                         className="carousel"
@@ -75,27 +65,7 @@ function Popular() {
                             />
                           </div>
                         </div>
-                        {/* <a
-                          className="carousel-control-prev left-0"
-                          href="#image-slider"
-                          role="button"
-                          data-slide="prev"
-                        >
-                          <i className="carousel-control-prev-icon fa fa-angle-left" />
-                          <span className="sr-only">Previous</span>
-                        </a>
-                        <a
-                          className="carousel-control-next right-0"
-                          href="#image-slider"
-                          role="button"
-                          data-slide="next"
-                        >
-                          <i className="carousel-control-next-icon fa fa-angle-right" />
-                          <span className="sr-only">Next</span>
-                        </a> */}
-                        <div className="item-card7-overlaytext">
-                          <h4 className="mb-0">${Item.price}</h4>
-                        </div>
+
                         <div
                           className="item-card2-img1"
                           data-toggle="modal"
@@ -128,14 +98,13 @@ function Popular() {
                             <div className="item-card2-text">
                               <a href="tours.html" className="text-dark">
                                 <h4 className="font-weight-bold mb-3">
-                                  {Item.title}
+                                  บ้านโครงการ
                                 </h4>
                               </a>
                             </div>
                             <p className="fs-14 mb-1">
                               <b>{Item.days}</b>
                             </p>
-                            <p className="mb-0">{Item.details} </p>
                           </div>
                         </div>
                       </div>
@@ -143,29 +112,14 @@ function Popular() {
                         <ul className="d-flex mb-1">
                           <li className>
                             <a href="tours.html" className="icons">
-                              <i className="fe fe-map-pin text-muted mr-1" />{" "}
-                              {Item.location}
+                              3.5 ล้าน
                             </a>
                           </li>
                         </ul>
                         <div className="item-card2-rating mb-0 ml-auto">
                           <div className="star-ratings start-ratings-main clearfix d-inline-flex">
-                            <div className="stars stars-example-fontawesome stars-example-fontawesome-sm mr-2">
-                              <select
-                                className="example-fontawesome"
-                                name="rating"
-                                autoComplete="off"
-                              >
-                                <option value={1}>1</option>
-                                <option value={2}>2</option>
-                                <option value={3}>3</option>
-                                <option value={4} selected>
-                                  4
-                                </option>
-                                <option value={5}>5</option>
-                              </select>
-                            </div>{" "}
-                            ({Item.quantity})
+                            <i className="fe fe-map-pin text-muted mr-1" />
+                            สุขุมวิท
                           </div>
                         </div>
                       </div>
