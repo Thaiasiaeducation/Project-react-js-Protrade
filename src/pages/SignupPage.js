@@ -7,7 +7,7 @@ function SignupPage() {
       <section className="sptb">
         <div className="container customerpage">
           <div className="row">
-            <div className="single-page">
+            <div className="single-page" style={{ marginTop: "4rem" }}>
               <div className="col-lg-5 col-xl-4 col-md-6 d-block mx-auto">
                 <div className="wrapper wrapper2 text-left">
                   <form id="Register" className="card-body" tabIndex={500}>

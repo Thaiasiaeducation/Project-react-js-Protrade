@@ -4,7 +4,7 @@ export const Itemreview = [
     name: "TestName LastName",
     rating: "4",
     review:
-      "Test review Lorem ipsum dolor consectetur adipisicing elit. Quod eso id officiis hic 1",
+      "Test review Lorem ipsum dolor consectetur  elit. Quod eso id officiis hic 1",
   },
   {
     Image: "../../assets/images/faces/female/testprofile01.png",

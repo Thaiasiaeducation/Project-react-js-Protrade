@@ -6,7 +6,7 @@ function PageNotFound() {
       {/* Page */}
       <div className="page page-h">
         <div className="page-content zindex-10">
-          <div className="container text-center">
+          <div className="container text-center" style={{ marginTop: "4rem" }}>
             <div className="display-1 mb-5 font-weight-semibold2">404</div>
             <h1 className="h1 mb-3 font-weight-semibold2">Page Not Found</h1>
             <p className="h4 font-weight-normal mb-7 leading-normal">

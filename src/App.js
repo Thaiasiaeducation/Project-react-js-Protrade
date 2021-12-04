@@ -12,12 +12,12 @@ import Footer from "./Component/Footer/Footer";
 import Horizontal from "./Component/Horizontal/Horizontal";
 import PageNotFound from "./pages/PageNotFound";
 import ForgotPassword from "./pages/ForgotPassword";
+import Header from "./Component/Hero/Header";
 
 function App() {
   return (
     <Router>
-      <Horizontal />
-
+      <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />
@@ -25,7 +25,6 @@ function App() {
         <Route path="/signin" exact component={Signin} />
         <Route path="/signup" exact component={Signup} />
         <Route path="/Forgot" exact component={ForgotPassword} />
-
         <Route path="/:id" exact component={PageNotFound} />
       </Switch>
       <Footer />
