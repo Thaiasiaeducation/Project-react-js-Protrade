@@ -7,6 +7,7 @@ import BlogNews from "../Component/BlogNews/BlogNews";
 import Header from "../Component/Hero/Header";
 import Mobaileapp from "../Component/Mobileapp/Mobileapp";
 import Categories from "../Component/Categories/Categories";
+import OurNewsletter from "../Component/Ournewsletter/OurNewsletter";
 function Home() {
   return (
     <div>
@@ -17,6 +18,7 @@ function Home() {
       <Ratedlocations />
       <BlogNews />
       <Mobaileapp />
+      <OurNewsletter />
     </div>
   );
 }
