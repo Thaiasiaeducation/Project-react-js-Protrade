@@ -13,8 +13,12 @@ function Header() {
           className="text-left text-white mb-4"
           style={{ position: "absolute", zIndex: "10", marginTop: "10rem" }}
         >
-          <h2>Never Stop To </h2>
-          <h3>Exploring The World</h3>
+          <h2 style={{ color: "#7B551B" }}>
+            ขายบ้านและคอนโดโครงการดีกว่า 100 โครงการ
+          </h2>
+          <h3 style={{ color: "#7B551B" }}>
+            ค้นหาตามทำเลที่คุณต้องการด้านล่างนี้
+          </h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

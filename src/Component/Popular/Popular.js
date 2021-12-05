@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
 import { Itempopular } from "../../data/Itempopular";
+import { GrFormNext } from "react-icons/gr";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -14,15 +15,49 @@ function Popular() {
     <>
       <section className="sptb">
         <div className="container">
-          <div className="section-title">
-            <h3 style={{ left: "1rem" }}>บ้านและคอนโดยอดนิยม</h3>
+          <div
+            className="section-title"
+            style={{
+              paddingBottom: "20px",
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "end",
+            }}
+          >
+            <h3>บ้านและคอนโดยอดนิยม</h3>
+            <a href="#">
+              ดูทั้งหมด{" "}
+              <i>
+                <GrFormNext />
+              </i>{" "}
+            </a>
           </div>
-          <Carousel breakPoints={breakPoints}>
+          <div
+            style={{
+              display: "flex",
+              overflowY: "hidden",
+              overflowX: "scroll",
+              padding: "20px",
+              WebkitScrollSnapType: "none",
+            }}
+            breakPoints={breakPoints}
+          >
             {Itempopular.map((Item, index) => {
               return (
                 <>
-                  <div className="item mr-4">
-                    <div className="card mb-0 item-card2-card">
+                  <div
+                    className="item mr-4"
+                    key={index}
+                    style={{
+                      display: "flex",
+                      height: "400px",
+                      minWidth: "320px",
+                    }}
+                  >
+                    <div
+                      className="card mb-0 item-card2-card"
+                      style={{ borderRadius: "1px" }}
+                    >
                       <div
                         id="image-slider"
                         className="carousel"
@@ -76,22 +111,7 @@ function Popular() {
                           </span>
                         </div>
                       </div>
-                      <div className="item-card2-icons">
-                        <a
-                          href="#"
-                          className="item-card2-icons-l bg-primary mr-1"
-                        >
-                          {" "}
-                          <i className="fa fa-plane" />
-                        </a>
-                        <a href="#" class="item-card2-icons-l bg-primary mr-1">
-                          {" "}
-                          <i class="fa fa-bus"></i>
-                        </a>
-                        <a href="#" className="item-card2-icons-r bg-secondary">
-                          <i className="fa fa fa-heart-o" />
-                        </a>
-                      </div>
+
                       <div className="card-body">
                         <div className="item-card2">
                           <div className="item-card2-desc">
@@ -108,7 +128,7 @@ function Popular() {
                           </div>
                         </div>
                       </div>
-                      <div className="card-footer d-flex">
+                      <div className="card-footer d-flex" style={{}}>
                         <ul className="d-flex mb-1">
                           <li className>
                             <a href="tours.html" className="icons">
@@ -316,7 +336,7 @@ function Popular() {
                 </>
               );
             })}
-          </Carousel>
+          </div>
         </div>
       </section>
     </>

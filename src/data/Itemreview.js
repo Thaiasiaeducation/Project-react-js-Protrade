@@ -34,4 +34,53 @@ export const Itemreview = [
     review:
       "Lorem ipsum dolor consectetur adipisicing elit. Quod eso id officiis hic 5",
   },
+  {
+    Image: "../../assets/images/faces/female/testprofile01.png",
+    name: "TestName LastName5",
+    rating: "4",
+    review:
+      "Lorem ipsum dolor consectetur adipisicing elit. Quod eso id officiis hic 5",
+  },
+  {
+    Image: "../../assets/images/faces/female/testprofile01.png",
+    name: "TestName LastName5",
+    rating: "4",
+    review:
+      "Lorem ipsum dolor consectetur adipisicing elit. Quod eso id officiis hic 5",
+  },
+  {
+    Image: "../../assets/images/faces/female/testprofile01.png",
+    name: "TestName LastName5",
+    rating: "4",
+    review:
+      "Lorem ipsum dolor consectetur adipisicing elit. Quod eso id officiis hic 5",
+  },
+  {
+    Image: "../../assets/images/faces/female/testprofile01.png",
+    name: "TestName LastName5",
+    rating: "4",
+    review:
+      "Lorem ipsum dolor consectetur adipisicing elit. Quod eso id officiis hic 5",
+  },
+  {
+    Image: "../../assets/images/faces/female/testprofile01.png",
+    name: "TestName LastName5",
+    rating: "4",
+    review:
+      "Lorem ipsum dolor consectetur adipisicing elit. Quod eso id officiis hic 5",
+  },
+  {
+    Image: "../../assets/images/faces/female/testprofile01.png",
+    name: "TestName LastName5",
+    rating: "4",
+    review:
+      "Lorem ipsum dolor consectetur adipisicing elit. Quod eso id officiis hic 5",
+  },
+  {
+    Image: "../../assets/images/faces/female/testprofile01.png",
+    name: "TestName LastName5",
+    rating: "4",
+    review:
+      "Lorem ipsum dolor consectetur adipisicing elit. Quod eso id officiis hic 5",
+  },
 ];
