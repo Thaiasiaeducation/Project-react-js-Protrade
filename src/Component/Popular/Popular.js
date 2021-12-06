@@ -2,6 +2,11 @@ import React from "react";
 import Carousel from "react-elastic-carousel";
 import { Itempopular } from "../../data/Itempopular";
 import { GrFormNext } from "react-icons/gr";
+import Bedroom from "../../assets/images/Bedroom/Bedroom icon.png";
+import Bethroom from "../../assets/images/Bedroom/Bathroom icon.png";
+import Area from "../../assets/images/Bedroom/Area icon.png";
+import Asoke from "../../assets/images/location/image 96.png";
+import Sukhumvit from "../../assets/images/location/image 97.png";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -123,23 +128,74 @@ function Popular() {
                               </a>
                             </div>
                             <p className="fs-14 mb-1">
-                              <b>{Item.days}</b>
+                              <span className="border-right pr-3 mr-3">
+                                <i className="icon icon-clock mr-1" /> 9 Days
+                              </span>
+                              <span className>
+                                <i className="icon icon-event mr-1" /> 10 ตุลาคม
+                              </span>
                             </p>
+                          </div>
+                          <div
+                            style={{
+                              display: "flex",
+                              marginRight: "2rem",
+                              justifyContent: "space-around",
+                              alignItems: "center",
+                            }}
+                          >
+                            <img
+                              alt="img"
+                              className="bedroom"
+                              src={Bedroom}
+                              style={{ width: "28px", height: "20px" }}
+                            />
+                            <h4 style={{ paddingTop: "10px" }}>2</h4>
+                            <img
+                              alt="img"
+                              className="bedroom"
+                              src={Bethroom}
+                              style={{ width: "28px", height: "20px" }}
+                            />
+                            <h4 style={{ paddingTop: "10px" }}>2</h4>
+                            <img
+                              alt="img"
+                              className="bedroom"
+                              src={Area}
+                              style={{ width: "28px", height: "20px" }}
+                            />{" "}
+                            <h4 style={{ paddingTop: "10px" }}>165 sq ft</h4>
                           </div>
                         </div>
                       </div>
-                      <div className="card-footer d-flex" style={{}}>
+                      <div
+                        className="card-footer d-flex"
+                        style={{ padding: "5px 5px" }}
+                      >
                         <ul className="d-flex mb-1">
-                          <li className>
-                            <a href="tours.html" className="icons">
-                              3.5 ล้าน
+                          <li style={{ padding: "10px" }}>
+                            <a
+                              href="tours.html"
+                              className="icons"
+                              style={{ color: "#35ADAA", fontWeight: "bold" }}
+                            >
+                              3.5 ล้านบาท
                             </a>
                           </li>
                         </ul>
                         <div className="item-card2-rating mb-0 ml-auto">
-                          <div className="star-ratings start-ratings-main clearfix d-inline-flex">
-                            <i className="fe fe-map-pin text-muted mr-1" />
-                            สุขุมวิท
+                          <div
+                            className="star-ratings start-ratings-main clearfix d-inline-flex"
+                            style={{ display: "flex", alignItems: "center" }}
+                          >
+                            <img
+                              src={Sukhumvit}
+                              alt="icon"
+                              style={{ marginRight: "10px" }}
+                            />
+                            <p style={{ padding: "10px", marginBottom: "0" }}>
+                              สุขุมวิท
+                            </p>
                           </div>
                         </div>
                       </div>

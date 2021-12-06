@@ -8,15 +8,18 @@ import Header from "../Component/Hero/Header";
 import Mobaileapp from "../Component/Mobileapp/Mobileapp";
 import Categories from "../Component/Categories/Categories";
 import OurNewsletter from "../Component/Ournewsletter/OurNewsletter";
+import VideoReview from "../Component/VideoTestimonials/VideoReview";
+import ItWorks from "../Component/Itworks/ItWorks";
 function Home() {
   return (
     <div>
       <Header />
       <Categories />
       <Popular />
-      <Customerssays />
       <Ratedlocations />
-      <BlogNews />
+      <VideoReview />
+      <ItWorks />
+      <Customerssays />
       <Mobaileapp />
       <OurNewsletter />
     </div>

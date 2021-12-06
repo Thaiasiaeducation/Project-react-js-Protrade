@@ -11,54 +11,7 @@ function Footer() {
           <div
             className="py-4 footer-main text-white-50 p-0 border-bottom-0"
             style={{ background: "#004040" }}
-          >
-            <div className="container">
-              <div className="row">
-                <div className="col-lg">
-                  <ul className="payments mb-0 mt-2">
-                    <li>
-                      <a href="#" className="payments-icon">
-                        <i className="fa fa-cc-amex" aria-hidden="true" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="payments-icon">
-                        <i className="fa fa-cc-visa" aria-hidden="true" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="payments-icon">
-                        <i
-                          className="fa fa-credit-card-alt"
-                          aria-hidden="true"
-                        />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="payments-icon">
-                        <i className="fa fa-cc-mastercard" aria-hidden="true" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="payments-icon">
-                        <i className="fa fa-cc-paypal" aria-hidden="true" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="payments-icon">
-                        <i className="fa fa-cc-discover" aria-hidden="true" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="payments-icon">
-                        <i className="fa fa-google-wallet" aria-hidden="true" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+          ></div>
           <div
             className="footer-main border-bottom"
             style={{ background: "#ffffff", color: "#4F4F4F" }}
